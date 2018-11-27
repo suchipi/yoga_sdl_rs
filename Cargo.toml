@@ -1,0 +1,6 @@
+[package]
+name = "react_sdl"
+version = "0.1.0"
+authors = ["Lily Scott <me@suchipi.com>"]
+
+[dependencies]
