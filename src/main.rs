@@ -35,7 +35,7 @@ fn render(canvas: &mut Canvas<sdl2::video::Window>) -> Result<(), String> {
           color: Color::RGB(255, 0, 0),
           styles: make_styles![
             FlexBasis(200 pt),
-            AlignItems(yoga::types::Align::Center),
+            AlignItems(yoga::types::Align::FlexStart),
             JustifyContent(yoga::types::Justify::Center)
           ],
           children: vec![Node {
