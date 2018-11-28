@@ -9,3 +9,6 @@ features = ["bundled"]
 
 [dependencies.gl]
 version = "^0.11.0"
+
+[dependencies.yoga]
+version = "^0.3.0"
