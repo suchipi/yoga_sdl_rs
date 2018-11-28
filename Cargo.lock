@@ -844,15 +844,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "react_sdl"
-version = "0.1.0"
-dependencies = [
- "gl 0.11.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "sdl2 0.31.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "yoga 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
 name = "redox_syscall"
 version = "0.1.43"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1532,6 +1523,15 @@ dependencies = [
  "bindgen 0.37.4 (registry+https://github.com/rust-lang/crates.io-index)",
  "cc 1.0.25 (registry+https://github.com/rust-lang/crates.io-index)",
  "ordered-float 0.5.2 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "yoga_sdl_rs"
+version = "0.1.0"
+dependencies = [
+ "gl 0.11.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "sdl2 0.31.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "yoga 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [metadata]

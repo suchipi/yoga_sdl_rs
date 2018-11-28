@@ -1,5 +1,5 @@
 [package]
-name = "react_sdl"
+name = "yoga_sdl_rs"
 version = "0.1.0"
 authors = ["Lily Scott <me@suchipi.com>"]
 
